@@ -24,3 +24,13 @@ function problema2(){
     }
     document.getElementById("p2").innerHTML= lunga + " è la p'arola più lunga";
 }
+
+function problema3(){
+    var totale = 0;
+    for (let i=0; i<10; i++){
+        var x = parseInt(prompt("inserire numero"))
+        totale = totale + x;
+        console.log(totale);
+    }
+    document.getElementById("p3").innerHTML = totale + " è la somma dei 10 numeri";
+}
