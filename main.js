@@ -34,3 +34,37 @@ function problema3(){
     }
     document.getElementById("p3").innerHTML = totale + " è la somma dei 10 numeri";
 }
+
+function problema4(){
+    invitati = [
+        'Luca',
+        'Gianni',
+        'Mauro',
+        'Lucia',
+        'Pippo',
+        'Cesare',
+        'Franco',
+        'Alessia',
+        'Giulia',
+        'Francesca'
+    ]
+    
+    console.log(invitati);
+
+    var x = prompt("Inserisci il tuo nome");
+    x = x.charAt(0).toUpperCase() + x.slice(1);
+    var verify = 0;
+    for (let i=0; i<invitati.length; i++){
+        if (x==invitati[i]){
+            verify = 1;
+            console.log(verify);
+        }
+    }
+    if(verify == 1){
+        document.getElementById("p4").innerHTML = "Sei nella lista puoi entrare!";
+    }
+    else{
+        document.getElementById("p4").innerHTML = "Non sei nella lista non puoi entrare!";
+    }
+    console.log(x);
+}
