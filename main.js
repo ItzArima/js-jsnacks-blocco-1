@@ -80,6 +80,7 @@ function problema5(){
         }
         console.log(dispari);
     }
+    document.getElementById("p5").innerHTML = dispari;
 }
 
 function problema6(){
