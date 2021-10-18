@@ -68,3 +68,16 @@ function problema4(){
     }
     console.log(x);
 }
+
+function problema5(){
+    var dispari = [];
+    var count = 0;
+    for (let i=0; i<6; i++){
+        var x = parseInt(prompt("inserisci numero"));
+        if(x%2 == 1){
+            dispari[count] = x;
+            count++
+        }
+        console.log(dispari);
+    }
+}
