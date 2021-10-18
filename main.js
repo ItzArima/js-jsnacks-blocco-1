@@ -91,3 +91,15 @@ function problema6(){
         document.getElementById("p6").innerHTML += "  " + num;
     }
 }
+
+function problema7(){
+    var x = 1;
+    document.getElementById("p7").innerHTML +=x;
+    for (x=1; x<1000;x++){
+        x = x*2;
+        if(x<1000){
+            document.getElementById("p7").innerHTML +="  " + x;
+        }    
+        x= x-1
+    }
+}
