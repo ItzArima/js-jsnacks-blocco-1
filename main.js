@@ -103,3 +103,21 @@ function problema7(){
         x= x-1
     }
 }
+
+function problema8(){
+    var x = (prompt("inserisci un numero di 4 cifre"))
+    var tot = 0;
+    console.log(x.length);
+    if (x.length == 4){
+        for (let i=0;i<4;i++){
+            y = x.charAt(i);
+            y=parseInt(y);
+            tot = tot + y;
+            console.log(tot);
+        }
+    document.getElementById("p8").innerHTML = "il totale dei singoli numeri è  " + tot;    
+    }
+    else{
+        alert("Il tuo numero non soddisfa le richieste indicate!")
+    }
+}
