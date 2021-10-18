@@ -81,3 +81,13 @@ function problema5(){
         console.log(dispari);
     }
 }
+
+function problema6(){
+    var x = parseInt(prompt("inserisci numero di numeri a cui calcolare il cubo"));
+    for (let i=0; i<x; i++){
+        var num = parseInt(prompt("inserisci numero di cui calcolare il cubo"));
+        num = num*num*num;
+        console.log(num);
+        document.getElementById("p6").innerHTML += "  " + num;
+    }
+}
