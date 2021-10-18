@@ -121,3 +121,17 @@ function problema8(){
         alert("Il tuo numero non soddisfa le richieste indicate!")
     }
 }
+
+function problema9(){
+    var somma = 0;
+    const numeri = []
+    for(i=0; i<15; i++){
+        numeri [i] = i;
+        console.log("numeri" + numeri);
+    }    
+    for (n=0; n<10; n++){
+        somma = somma + numeri[n];
+    }
+    var media = somma/10;
+    document.getElementById("p9").innerHTML = "somma = " + somma + "   media = " + media;
+}
