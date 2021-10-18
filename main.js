@@ -22,7 +22,7 @@ function problema2(){
     else{
         lunga = y;
     }
-    document.getElementById("p2").innerHTML= lunga + " è la p'arola più lunga";
+    document.getElementById("p2").innerHTML= lunga + " è la parola più lunga";
 }
 
 function problema3(){
